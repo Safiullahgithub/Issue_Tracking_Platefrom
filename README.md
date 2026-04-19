@@ -332,11 +332,8 @@ After running `npm run seed` in the backend:
 
 | Role             | Email                       | Password    |
 |------------------|-----------------------------|-------------|
-| Admin            | admin@trackshield.io        | admin123    |
-| Developer        | alice@trackshield.io        | password123 |
-| QA               | bob@trackshield.io          | password123 |
-| Security Analyst | carol@trackshield.io        | password123 |
-| Manager          | dave@trackshield.io         | password123 |
+
+
 
 > ⚠️ Change all passwords before deploying to production!
 
