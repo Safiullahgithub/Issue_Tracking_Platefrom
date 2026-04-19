@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.npm
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Uploads (user files)
+backend/uploads/images/*
+backend/uploads/documents/*
+backend/uploads/attachments/*
+!backend/uploads/**/.gitkeep
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Coverage
+coverage/
