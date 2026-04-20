@@ -273,7 +273,7 @@ PORT=5000
 NODE_ENV=development
 
 # Database
-MONGODB_URI=mongodb://localhost:27017/trackshield
+MONGODB_URI=mongodb://localhost:27017/db name
 
 # JWT — CHANGE THIS! Use a random 32+ character string
 JWT_SECRET=change_this_to_a_random_secret_at_least_32_chars
