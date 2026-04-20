@@ -1,0 +1,12 @@
+{
+  "name": "trackshield",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build && rm -rf dist && cp -R frontend/dist dist",
+    "dev": "npm --prefix frontend run dev"
+  }
+}
